@@ -128,7 +128,7 @@ html {
   float: left;
   font-family: sans-serif;
   width: 32%;
-  padding: 20px;
+  padding: 13px;
   border-radius: 8px;
   margin-right: 10px;
   margin-bottom: 15px;
@@ -237,7 +237,7 @@ html {
 }
  .catpng{
    width: 100%;
-   height: 350px;
+   height: 320px;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -290,7 +290,7 @@ li{
 
  .column{
   width: 100%;
-  margin-bottom: 15px ;
+  margin-bottom: 15px;
   border-radius: 8px;
  }
 
@@ -298,12 +298,13 @@ li{
   width: 100%;
  margin-bottom: 15px;
   border-radius: 10px;
+  padding: 10px;
  }
 
 
  .UIhigh{
    display: none;
-  height: 200px;
+  height: 220px;
   width: 100%;
   border-radius: 5px;
    object-fit: fill;
@@ -312,12 +313,16 @@ li{
 
 .UIhigh2{
   display: none;
-   height: 200px;
+   height: 230px;
   width: 100%;
   border-radius: 10px;
   object-fit: fill;
 }
 
+.logoProj{
+  height: 55px;
+  width: 55px;
+}
 
 
 @media only screen and (max-width:800px) {
