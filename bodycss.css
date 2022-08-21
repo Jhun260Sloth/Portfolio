@@ -265,7 +265,7 @@ html {
 
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
- .main, #section0, #section1, #section2, #section3, .column2, .columnIntro2 {
+ .main, #section0, #section1, #section2, #section3, .column2, .columnIntro2, .columnMockups {
     width: 100%;
 }
  .catpng{
