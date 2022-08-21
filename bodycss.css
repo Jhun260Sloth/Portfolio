@@ -13,7 +13,6 @@ body{
 }
 
 
-
 ul {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -138,8 +137,9 @@ html {
   width: 32%;
   padding: 15px;
   border-radius: 10px;
-  margin-right: 10px;
-  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  font-size: 14px;
 }
 
 .columnIntro {
@@ -178,10 +178,10 @@ html {
 
 .columnMockups {
   float: left;
-  width: 100%;
+  width: 50%;
   color: #E6E8EC;
   padding: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -238,6 +238,29 @@ html {
   display: inline-block;
   font-size: 12px;
   cursor: pointer;
+}
+
+
+
+.containerMockups {
+  position: relative;
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 16px;
+  float: left;
+}
+
+.containerMockups img {vertical-align: middle;}
+
+.containerMockups .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+   border-radius: 10px;
 }
 
 @media only screen and (max-width:600px) {
@@ -302,31 +325,18 @@ li{
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
+  font-size: 13px;
  }
 
- .columnMockups{
-  width: 100%;
- margin-bottom: 15px;
-  border-radius: 10px;
-
+ .buttonProj{
+  font-size: 11px;
  }
 
-
- .UIhigh{
-   display: none;
-  height: 220px;
-  width: 100%;
-  border-radius: 5px;
-   object-fit: fill;
-
-}
-
-.UIhigh2{
-  display: none;
-   height: 230px;
-  width: 100%;
-  border-radius: 10px;
-  object-fit: fill;
+.containerMockups {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 11px;
 }
 
 .logoProj{
