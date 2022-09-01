@@ -36,6 +36,8 @@ li{
 
 .IntroHigh{
   float: right;
+  border-radius: 10px;
+ 
 }
 
 html {
@@ -165,7 +167,7 @@ html {
   float: left;
   width: 50%;
   color: #E6E8EC;
-  padding: 20px;
+  padding-left: 10px;
 }
 
 .columnHigh2 {
@@ -245,8 +247,8 @@ html {
 .containerMockups {
   position: relative;
   max-width: 620px;
-  margin: 0 auto;
-  font-size: 16px;
+  margin: 3;
+  font-size: 12px;
   float: left;
 }
 
@@ -258,10 +260,13 @@ html {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+  width: 98%;
+  padding: 15px;
    border-radius: 10px;
 }
+
+
+
 
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
@@ -305,13 +310,11 @@ li{
 }
 
 .IntroHigh{
-  width: 50%;
+  width: 100%;
+  border-radius: 10px;
    height: 450px;
-   margin: 0px;
-   border-radius: 0px;
    object-fit: cover ;
    float: left;
-   margin-top: 20px;
 
 }
 
@@ -332,23 +335,32 @@ li{
   font-size: 11px;
  }
 
-.containerMockups {
-  position: relative;
-  max-width: 100%;
-  margin: 0 auto;
-  font-size: 11px;
-}
 
 .logoProj{
   height: 55px;
   width: 55px;
 }
 
+.containerMockups{
+  position: relative;
+  max-width: 100%;
+  margin: 3 auto;
+  font-size: 9px;
+}
+
+.containerMockups .content {
+  position: absolute;
+  padding: 10px;
+   border-radius: 10px;
+}
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
 
   }
+
+
+
 
 
 
