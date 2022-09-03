@@ -29,6 +29,11 @@ li{
 
 }
 
+.logoCode{
+  float: right;
+  object-fit: cover;
+}
+
 .catpng{
   float: right;
   width: auto;
@@ -38,6 +43,12 @@ li{
   float: right;
   border-radius: 10px;
  
+}
+
+.catFacts{
+  border-radius: 10px;
+  height: auto;
+  padding: 15px;
 }
 
 html {
@@ -257,7 +268,7 @@ html {
 .containerMockups .content {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgb(0, 0, 0.0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
   width: 98%;
@@ -273,6 +284,7 @@ html {
  .main, #section0, #section1, #section2, #section3, .column2, .columnIntro2, .columnMockups {
     width: 100%;
 }
+
  .catpng{
    width: 100%;
    height: 340px;
@@ -306,7 +318,7 @@ li{
 }
 
 .shortener{
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .IntroHigh{
@@ -316,6 +328,11 @@ li{
    object-fit: cover ;
    float: left;
 
+}
+
+.logoCode{
+  float: right;
+  object-fit: cover;
 }
 
 .columnHigh{
@@ -341,11 +358,21 @@ li{
   width: 55px;
 }
 
+.logoCode{
+   height: 35px;
+  width: 35px;
+}
+
+.catFacts{
+ font-size: 13px;
+}
+
+
 .containerMockups{
   position: relative;
   max-width: 100%;
   margin: 3 auto;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .containerMockups .content {
