@@ -16,7 +16,6 @@ function myFunction() {
         function fadeIn() {
             setInterval(show, 80);
             facts();
-
         }
   
         function show() {
@@ -42,8 +41,5 @@ function myFunction() {
     console.log(result)
     document.getElementById("thecyfacts").innerHTML = result.fact
 
-    //For Image Stuff like waifu js
-    let thecyfacts = document.getElementById("thecyfacts");
-  })
-  .catch(err => console.error(err));
+  });
 }
