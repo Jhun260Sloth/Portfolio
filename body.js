@@ -15,7 +15,7 @@ function myFunction() {
   
         function fadeIn() {
             setInterval(show, 80);
-            facts();
+             facts();
         }
   
         function show() {
@@ -30,6 +30,19 @@ function myFunction() {
                 clearInterval(intervalID);
             }
         }
+
+
+
+var timeleft = 10;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    facts();
+    timeleft = 10;
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
+
 
 
 
